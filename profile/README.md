@@ -1,5 +1,3 @@
-## Hi there 👋
-
 ## Who We Are
 
 We are a team focused on automating the training process of stable diffusion models (LoRA, Lycoris, Pivotal Tuning, etc.). 
