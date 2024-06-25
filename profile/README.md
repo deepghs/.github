@@ -8,6 +8,8 @@ Our team comprises a Ph.D. in Software Engineering, a Ph.D. candidate in Compute
 
 We are a purely non-profit team, and all our work is completely open, without any form of charge.
 
+If you are interested in our work, you can join https://discord.gg/TwdHJ42N72, we are glad to see some good ideas, technologies or suggestions.
+
 ## Our Achievements
 
 We have conducted multiple iterations on Pivotal Tuning training technology (training with a LoRA and one or more pt files). The progress is documented in the following technical blogs:
