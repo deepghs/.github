@@ -1,8 +1,8 @@
 ## Who We Are
 
-We are a team focused on automating the training process of stable diffusion models (LoRA, Lycoris, Pivotal Tuning, etc.). 
+We are a team focused on building infrastructure for anime data information, including images, text, audiovisuals, and more.
 
-Our goal is to automate the entire pipeline, including data acquisition, data filtering, training, step selection, and platform deployment, **saving manpower and optimizing model training quality to the maximum**.
+Our goal is to automate all common processes for handling anime information, including data acquisition, data filtering, training, step selection, and platform deployment, in order to save manpower and optimally balance quality and performance requirements.
 
 Our team comprises a Ph.D. in Software Engineering, a Ph.D. candidate in Computer Vision, professionals in art and design, and several AI waifu enthusiasts.
 
