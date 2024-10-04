@@ -8,21 +8,6 @@ Our team comprises a Ph.D. in Software Engineering, a Ph.D. candidate in Compute
 
 We are a purely non-profit team, and all our work is completely open, without any form of charge.
 
-If you are interested in our work, you can join https://discord.gg/TwdHJ42N72, we are glad to see some good ideas, technologies or suggestions.
-
-## Our Achievements
-
-We have conducted multiple iterations on Pivotal Tuning training technology (training with a LoRA and one or more pt files). The progress is documented in the following technical blogs:
-* [Overview of v1.4 Training Automation](https://civitai.com/articles/2064/2023-8-31-release-of-v14-training-automation-process)
-* [Result Analysis of v1.4 Training Automation](https://civitai.com/articles/2479/2023-10-7-survey-of-v14-training-automation-and-planning-of-version-v15)
-* v1.5 Automation is coming... :)
-
-Models we have trained or hosted can be found at:
-* [CyberHarem - Huggingface](https://huggingface.co/CyberHarem), including datasets used for training
-* [narugo1992 - Civitai](https://civitai.com/user/narugo1992), where only a few models are selected for publication to avoid offense to those who insist on manually training models, lol
-
-Quantitative analysis from the blog "Result Analysis of v1.4 Training Automation" shows that **v1.4 training automation has achieved a quite impressive level in both quality and quantity**, but there's still room for further improvement. This is an ongoing effort for v1.5 and future versions.
-
 ## Our Technical Outputs
 
 ### dghs-imgutils
@@ -47,7 +32,6 @@ Project Documentation: https://deepghs.github.io/imgutils/main/index.html
 * Object Detection
 * Edge Detection / Lineart Generation
 * Monochrome Image Detection
-* Image Rating
 * Truncated Image Check
 * Image Tagging
 * Character Extraction
