@@ -113,7 +113,7 @@ We obsess over **ALL things anime-tech**:
 2. You’re ready to build—not just consume—anime tech  
 
 **How to apply**:  
-- Pitch us via [Discord](https://discord.gg/EAW4WqFdKY)/[Email](narugo1992@deepghs.org) with:  
+- Pitch us via [Discord](https://discord.gg/EAW4WqFdKY)/[Email](mailto:narugo1992@deepghs.org) with:  
   - Your anime-tech portfolio  
   - What you’ll bring to our dojo 🥋  
 - OR: Directly request to join our [HuggingFace Org](https://huggingface.co/deepghs) , with the same things above
