@@ -1,68 +1,130 @@
-## Who We Are
 
-We are a team focused on building infrastructure for anime data information, including images, text, audiovisuals, and more.
+# 🌟 Who We Are  
 
-Our goal is to automate all common processes for handling anime information, including data acquisition, data filtering, training, step selection, and platform deployment, in order to save manpower and optimally balance quality and performance requirements.
+**DeepGHS** (*Deep Generative anime Hobbyist Syndicate*) is a passion-driven, non-profit community building anime/2D-focused infrastructure—because even otakus deserve robust tooling! 🎨  
 
-Our team comprises a Ph.D. in Software Engineering, a Ph.D. candidate in Computer Vision, professionals in art and design, and several AI waifu enthusiasts.
+We obsess over **ALL things anime-tech**:  
+- 🖼️ Multimodal datasets (images, video, text, audio, 3D)  
+- 🤖 AI models that actually *get* anime aesthetics  
+- 🔧 Developer tools to make weeb R&D 10x easier  
 
-We are a purely non-profit team, and all our work is completely open, without any form of charge.
+**Our crew** includes:  
+- **narugo1992** (self-proclaimed Jerry Mouse 🐭 | Software Engineering PhD | 25+ years of coding/teamwork wizardry)  
+- A global squad of AI nerds + anime addicts from top labs/universities 🎓  
+- Pro artists who know "moe" isn’t just a typo 🎨  
 
-## Our Technical Outputs
+*Fun fact: We hire based on* ***passion for anime*** *first, technical skills second. (Sorry, resume bots!)*  
 
-### dghs-imgutils
+**Why trust us?**  
+✅ 100% non-profit | ✅ Fully open-source | ✅ Zero paywalls (forever!)  
+💖 Backed by sponsors & collaborators who *get* our vision  
 
-[![PyPI](https://img.shields.io/pypi/v/dghs-imgutils)](https://pypi.org/project/dghs-imgutils/)
-[![GitHub stars](https://img.shields.io/github/stars/deepghs/imgutils)](https://github.com/deepghs/imgutils/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/deepghs/imgutils)](https://github.com/deepghs/imgutils/network)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/deepghs/imgutils)
-[![GitHub issues](https://img.shields.io/github/issues/deepghs/imgutils)](https://github.com/deepghs/imgutils/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/deepghs/imgutils)](https://github.com/deepghs/imgutils/pulls)
-[![Contributors](https://img.shields.io/github/contributors/deepghs/imgutils)](https://github.com/deepghs/imgutils/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/deepghs/imgutils)](https://github.com/deepghs/imgutils/blob/master/LICENSE)
+---
 
-Project Link: https://github.com/deepghs/imgutils
+# 🚀 Our Projects
 
-Project Documentation: https://deepghs.github.io/imgutils/main/index.html
+## 📊 Datasets
 
-**This is a library for various common operations on anime images**, including but not limited to:
+### **Danbooru2024 Series**  
+- **Original**: [Full-resolution images](https://huggingface.co/datasets/deepghs/danbooru2024)  
+- **Compressed**: [WebP format (4M pixels)](https://huggingface.co/datasets/deepghs/danbooru2024-webp-4Mpixel)  
+- **SFW Edition**: [Safe-for-work subset](https://huggingface.co/datasets/deepghs/danbooru2024-sfw)  
 
-* Tachie (Difference) Detection and Clustering
-* Contrastive Character Image Pretraining
-* Object Detection
-* Edge Detection / Lineart Generation
-* Monochrome Image Detection
-* Truncated Image Check
-* Image Tagging
-* Character Extraction
+### **Sankaku Collection**  
+- **Original**: [Full dataset](https://huggingface.co/datasets/deepghs/sankaku_full)  
+- **Compressed**: [WebP format (4M pixels)](https://huggingface.co/datasets/deepghs/sankaku-webp-4Mpixel)  
 
-Check out the documentation for more features.
+### **Other Booru-style Repositories**  
+- [Gelbooru Full](https://huggingface.co/datasets/deepghs/gelbooru_full)  
+- [Yande.re Full](https://huggingface.co/datasets/deepghs/yande_full)  
+- [Rule34.xxx Full](https://huggingface.co/datasets/deepghs/rule34_full)  
+- [Konachan Full](https://huggingface.co/datasets/deepghs/konachan_full)  
+- [Anime-Pictures Dataset](https://huggingface.co/datasets/deepghs/anime_pictures_full)  
+- [Zerochan Full](https://huggingface.co/datasets/deepghs/zerochan_full)  
 
-### Waifuc
+### **Functional Datasets**  
+- [Character Similarity Dataset](https://huggingface.co/datasets/deepghs/character_similarity) - For cross-character recognition  
+- [Anime Face Detection](https://huggingface.co/datasets/deepghs/anime_face_detection) - Labeled facial data  
+- [Anime Head Detection](https://huggingface.co/datasets/deepghs/anime_head_detection) - Head position annotations  
 
-[![PyPI](https://img.shields.io/pypi/v/waifuc)](https://pypi.org/project/waifuc/)
-[![GitHub stars](https://img.shields.io/github/stars/deepghs/waifuc)](https://github.com/deepghs/waifuc/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/deepghs/waifuc)](https://github.com/deepghs/waifuc/network)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/deepghs/waifuc)
-[![GitHub issues](https://img.shields.io/github/issues/deepghs/waifuc)](https://github.com/deepghs/waifuc/issues)
-[![GitHub pulls](https://img.shields.io/github/issues-pr/deepghs/waifuc)](https://github.com/deepghs/waifuc/pulls)
-[![Contributors](https://img.shields.io/github/contributors/deepghs/waifuc)](https://github.com/deepghs/waifuc/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/deepghs/waifuc)](https://github.com/deepghs/waifuc/blob/master/LICENSE)
+### **Anime Series Datasets**  
+- [BangumiBase](https://huggingface.co/BangumiBase) - Character-centric frame extractions  
 
-Project Link: https://github.com/deepghs/waifuc
+### **Search Systems**  
+- [Reverse Image Search](https://huggingface.co/spaces/deepghs/search_image_by_image) 🔍  
+- [Danbooru Character Lookup](https://huggingface.co/spaces/deepghs/danbooru_character_search) 🕵️♂️  
 
-A **data pipeline framework based on dghs-imgutils**, supporting:
-* Fast data retrieval (local disk, danbooru, pixiv, zerochan, etc.)
-* Swift data filtering (comic exclusion, monochrome image exclusion, multi-character image exclusion, irrelevant character exclusion, etc.)
-* Rapid data saving (local, cloud; with metadata, saved in stable diffusion dataset format, etc.)
-* Quick building of processing pipelines (connecting multiple aforementioned stages)
+---
 
-*Note: This tool is currently a work in progress, although it's in use. It hasn't been released on PyPI and lacks comprehensive documentation. These aspects will be addressed soon.*
+## 🤖 Models
 
-### Model Zoo
+### **Classification Models**  
+- [Anime/Real Classifier](https://huggingface.co/deepghs/anime_real_cls) - Distinguish anime from real images  
+- [Image Type Classifier](https://huggingface.co/deepghs/anime_classification) - Categorize artwork styles  
+- [Furry Detection](https://huggingface.co/deepghs/anime_furry) - Identify anthropomorphic characters  
+- [Aesthetic Scorer](https://huggingface.co/deepghs/anime_aesthetic) - Predict visual appeal  
+- [Style Era Classifier](https://huggingface.co/deepghs/anime_style_ages) - Decade recognition  
+- [Live Demo](https://huggingface.co/spaces/deepghs/anime_image_classification) 🧪  
 
-We manage our models and datasets on Huggingface: https://huggingface.co/deepghs
+### **Detection Models**  
+- [Face Detection](https://huggingface.co/deepghs/anime_face_detection) - Precise facial localization  
+- [Head Detection](https://huggingface.co/deepghs/anime_head_detection) - Head position estimation  
+- [Person Detection](https://huggingface.co/deepghs/anime_person_detection) - Full-body recognition  
+- [NSFW Censor](https://huggingface.co/deepghs/anime_censor_detection) - Content moderation  
+- [Detection Demo](https://huggingface.co/spaces/deepghs/anime_object_detection) 🎯  
 
-### Anything More?
+### **Specialized Models**  
+- [CCIP](https://huggingface.co/deepghs/ccip) - Character similarity encoding ([Demo](https://huggingface.co/spaces/deepghs/ccip))  
+- [WD Tagger Enhanced](https://huggingface.co/deepghs/wd14_tagger_with_embeddings) - Tagger with embeddings  
 
-In fact, our plans go beyond what's mentioned here. Other tools are continuously improving and will soon be released. Stay tuned!
+---
+
+## 🛠️ Open-Source Projects
+
+### **Core Libraries**  
+- [dghs-imgutils](https://github.com/deepghs/imgutils) - Foundational anime image processing toolkit  
+- [waifuc](https://github.com/deepghs/waifuc) - Python framework for building data pipelines  
+- [sdeval](https://github.com/deepghs/sdeval) - Quantitative evaluation for Stable Diffusion outputs  
+
+### **Utilities**  
+- [hfutils](https://github.com/deepghs/hfutils) - Enhanced HuggingFace Hub interface  
+- [cheesechaser](https://github.com/deepghs/cheesechaser) - Targeted dataset sampling tool  
+
+### **Training Systems**  
+- [cyberharem](https://github.com/deepghs/cyberharem) - Automated LoRA training pipeline  
+
+---
+
+# 📬 Let’s Connect!  
+
+**For collabs, sponsorships, or just anime-tech chatter**: 
+
+- 💬Discord: [https://discord.gg/EAW4WqFdKY](https://discord.gg/EAW4WqFdKY)  (We don’t bite—unless you’re a bug!)  
+- 🤗HuggingFace: [https://huggingface.co/deepghs](https://huggingface.co/deepghs)  
+- 💻GitHub: [https://github.com/deepghs](https://github.com/deepghs)  
+- 📧Email: [narugo1992@deepghs.org](mailto:narugo1992@deepghs.org)  
+
+---
+
+# 🎯 Want to Join?  
+
+**We want YOU if**:  
+1. You can code *and* name 10 JoJo stands 💪  
+2. You’re ready to build—not just consume—anime tech  
+
+**How to apply**:  
+- Pitch us via [Discord](https://discord.gg/EAW4WqFdKY)/[Email](narugo1992@deepghs.org) with:  
+  - Your anime-tech portfolio  
+  - What you’ll bring to our dojo 🥋  
+- OR: Directly request to join our [HuggingFace Org](https://huggingface.co/deepghs) , with the same things above
+
+*Note: We do light vetting to protect our community—it’s faster than a Naruto run, promise!*  
+
+---
+
+# 🔮 What’s Next?  
+
+More tools, datasets, and *~magic~* in development!  
+**Pro tip**: Watch our repos ⭐ + Join Discord 👀 = Never miss an update!  
+
+~~Btw, the above magic was polished by deepseek-R1. Gotta say, this LLM is a copywriting wizard.~~
